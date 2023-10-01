@@ -1,0 +1,243 @@
+* {
+    color: black;
+    font-size: 18px;
+}
+
+body {
+    padding: 30px;
+    padding-left: 75px;
+    padding-right: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-weight: bold;
+}
+.logo a {
+    width: 100px;
+    font-size: 30px;
+}
+
+.logo span {
+    color: red;
+    font-size: 30px;
+}
+
+.navbar {
+    padding: 15px;
+    text-align: right;
+}
+
+.navbar a {
+    margin: 0 14px;
+    font-size: 20px;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.profile-content {
+    padding-top: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.profile-content div{
+    padding-top: 15px;
+}
+
+.profile-content .name {
+    font-size: 40px;
+}
+
+.profile-content .position {
+    font-size: 24px;
+}
+
+.profile-content .description {
+    font-weight: normal;
+}
+
+.profile-content a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+    padding: 10px 27px;
+    position: relative;
+    top: 30px;
+    background-color: #000000;
+    color: white;
+    border-radius: 12px;
+}
+
+.profile-img {
+    /* align-items: right; */
+    justify-self: end;
+}
+
+.profile-img img {
+    width: 370px;
+}
+
+.about {
+    padding-top: 100px;
+}
+
+.about-title, .qualification .title {
+    text-align: center;
+}
+
+.about-title h1, .qualification .title h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-title h2, .qualification .title h2 {
+    font-weight: normal;
+    margin-top: -20px;
+}
+
+.about-container{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.about-img img {
+    width: 400px;
+}
+
+.about-rectangle {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-content {
+    margin-left: 100px;
+}
+
+.about-rectangle .about-rectangle-content{
+    padding: 20px;
+    margin-right: auto;
+    text-align: center;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: #d4d4d4;
+}
+
+.about-rectangle .about-rectangle-content span{
+    color: #b5b5b5;
+    position: relative;
+    top: 3px;
+    font-size: 18px;
+}
+
+.about-description {
+    margin-top: 30px;
+}
+
+.about-cv{
+    background-color: black;
+    border-radius: 16px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualification {
+    position: relative;
+    top: 100px;
+    padding: 0px 200px;
+}
+
+.qualification-personal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    top: 30px;
+}
+
+.qualification-personal div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.qualification-container {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.qualification-description {
+    height: 150px;
+}
+
+.qualification-description .qualification-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.qualification-institute {
+    position: relative;
+    top: 5px;
+    color: #b5b5b5;
+}
+
+.qualification-date {
+    padding-top:15px;
+    color: #d7d7d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.qualification-date img {
+    width: 25px;
+}
+
+.qualification-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qualification-center .qualification-line {
+    width: 1px;
+    height: 540px;
+    border: 1px solid #d9d9d9;
+    border-radius: 15px;
+}
+
+.qualification-center .qualification-line .qualification-ellipse {
+    margin-left: -6px;
+    margin-bottom: 140px;
+    width: 14px;
+    height: 14px;
+    background-color: #d9d9d9;
+    border-radius: 7px;
+}
